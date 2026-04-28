@@ -30,7 +30,7 @@ const Wrapper = styled.div`
     align-items: center;
     flex-direction: column;
     width: 100%;
-    max-width: 1350px;
+    max-width: 1200px;
     padding: 40px 0px 0px 0px;
     gap: 12px;
     @media (max-width: 960px) {

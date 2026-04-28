@@ -1,3 +1,10 @@
+import image1 from '../images/image1.png';
+import image2 from '../images/image2.png';
+import image3 from '../images/image3.png';
+import image4 from '../images/image4.png';
+import image5 from '../images/image5.png';
+
+
 export const Bio = {
   name: "Mounees Kumar R",
   roles: [
@@ -164,6 +171,40 @@ export const education = [
 ];
 
 export const projects = [
+    {
+    id: 1,
+    title: "Centralized Academic Information Platform",
+    date: "Jan 2026 - April 2026",
+    description:
+      "Centralized Academic Information Platform for our College, enabling seamless access and management of academic data for students, faculty, and administrators. Designed with an intuitive and structured interface to ensure efficient information flow, real-time updates, and improved decision-making across departments.",
+
+    tags: [
+      "React Js",
+      "Postgres",
+      "SpringBoot",
+      "Firebase",
+    ],
+    category: "web app",
+    image: image1, // <-- Paste your image link here!
+    github: "https://github.com/Mounees07",
+    webapp: "https://adadamic-sync-frontend-ufaq.vercel.app/login", // <-- Replace this with your actual live link!
+  },
+  {
+    id: 5,
+    title: "Expenses Tracker Webpage",
+    date: "April 2026 - April 2026",
+    description:
+      "Full-Stack Expense Tracking Web Application, enabling seamless monitoring and management of personal financial data. Designed with a secure, structured interface and dynamic charting tools to ensure efficient expense categorization, real-time budget updates, and smarter spending habits.",
+    tags: [
+      "React Js",
+      "Postgres",
+      "Express Js",
+    ],
+    category: "web app",
+    image: image2, // <-- Paste your image link here!
+    github: "https://github.com/Mounees07",
+    webapp: "https://expense-tracker-frontend-chi-nine.vercel.app/login", // <-- Replace this with your actual live link!
+  },
   {
     id: 9,
     title: "Intelligence Platform for Students and Alumini Interconnection",
@@ -178,10 +219,12 @@ export const projects = [
       "Express Js",
     ],
     category: "web app",
+    image: image3, // <-- Paste your image link here!
     github: "https://github.com/Mounees07",
+    webapp: "https://your-live-website-url.com", // <-- Replace this with your actual live link!
   },
   {
-    id: 0,
+    id: 3,
     title: "Event Management Portal BITSathy",
     date: "May 2024 - Nov 2024",
     description:
@@ -189,10 +232,12 @@ export const projects = [
     
     tags: ["HTML", "CSS", "Javascript", "Django", "MySQL"],
     category: "web app",
+  image: image4,// <-- Paste your image link here!
     github: "https://github.com/Mounees07",
+    webapp: "https://your-live-website-url.com",
   },
   {
-    id: 1,
+    id: 2,
     title: "LEOFEST2K24",
     date: "Feb 2023 - March 2023",
     description:
@@ -205,9 +250,10 @@ export const projects = [
     
     ],
     category: "web app",
+    image: image5, // <-- Paste your image link here!
     github: "https://github.com/Mounees07",
+    webapp: "https://mounees07.github.io/Leofest2k24/",
   },
-
 
 
 
@@ -217,4 +263,21 @@ export const projects = [
 
 ];
 
-
+export const certificates = [
+  {
+    id: 0,
+    title: "Sample Certificate of Achievement",
+    date: "Jan 2024",
+    issuer: "Coursera / Platform",
+    image: "https://via.placeholder.com/600x400/854CE6/FFFFFF?text=Certificate+1", // Replace with your certificate image URL
+    link: "#", // Replace with verification link if any
+  },
+  {
+    id: 1,
+    title: "Another Certificate",
+    date: "Feb 2024",
+    issuer: "Organization Name",
+    image: "https://via.placeholder.com/600x400/854CE6/FFFFFF?text=Certificate+2", 
+    link: "#", 
+  }
+];

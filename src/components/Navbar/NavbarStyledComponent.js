@@ -24,11 +24,10 @@ export const NavbarContainer = styled.div`
   z-index: 1;
   width: 100%;
   padding: 0 24px;
-  max-width: 1200px;
 `;
 
 export const NavLogo = styled(LinkR)`
-    width: 80%;    
+    flex: 1;    
     padding: 0 6px;
     display: flex;
     justify-content: start;
@@ -44,7 +43,7 @@ export const Span = styled.div`
     font-size: 18px;
 `;
 export const NavItems = styled.ul`
-    width: 100%;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content:center;
@@ -97,7 +96,7 @@ export const GitHubButton = styled.a`
 `;
 
 export const ButtonContainer = styled.div`
-  width: 80%;  
+  flex: 1;  
   height: 100%;
   display: flex;
   justify-content: end;

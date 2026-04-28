@@ -23,7 +23,7 @@ justify-content: space-between;
 align-items: center;
 flex-direction: column;
 width: 100%;
-max-width: 1350px;
+max-width: 1200px;
 padding: 0px 0px 80px 0px;
 gap: 12px;
 @media (max-width: 960px) {
@@ -130,14 +130,16 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    
+    // TODO: Replace these three placeholders with your actual keys from EmailJS.com
+    emailjs.sendForm('service_2dkbr9k', 'template_y4e98rv', form.current, 'UQxHouQjziv6xlB2_')
       .then((result) => {
         setOpen(true);
         form.current.reset();
       }, (error) => {
         console.log(error.text);
       });
-  }
+    }
 
 
 

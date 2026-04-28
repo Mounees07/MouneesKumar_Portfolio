@@ -98,7 +98,7 @@ function Footer() {
           <SocialMediaIcon href="https://twitter.com" target="_blank" rel="noopener noreferrer">
             <TwitterIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <SocialMediaIcon href="https://linkedin.com/in/mouneeskumar" target="_blank" rel="noopener noreferrer">
             <LinkedInIcon />
           </SocialMediaIcon>
           <SocialMediaIcon href="https://instagram.com" target="_blank" rel="noopener noreferrer">

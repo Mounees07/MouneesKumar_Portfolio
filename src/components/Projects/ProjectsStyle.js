@@ -3,7 +3,7 @@ import _default from '../../themes/default';
 
 export const Container = styled.div`
     background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.15) 5.71%, rgba(132, 59, 206, 0) 90%);
-  
+    display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
@@ -18,6 +18,8 @@ export const Wrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
   padding: 10px 0px 40px 0; /* reduced bottom padding from 140px */
 
 

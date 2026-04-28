@@ -20,7 +20,8 @@ justify-content: space-between;
 align-items: center;
 flex-direction: column;
 width: 100%;
-max-width: 1500px;
+max-width: 1200px;
+padding-bottom: 80px;
 gap: 20px;
 @media (max-width: 960px) {
     flex-direction: column;
