@@ -1,18 +1,14 @@
 import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
   width: 100%;
   padding: 2rem 0;
   display: flex;
   justify-content: center;
-  //background: linear-gradient(100.26deg, rgba(0, 102, 255, 0.05) 42.33%, rgba(150, 0, 225, 0.05) 127.07%);
 `;
-
 
 const FooterWrapper = styled.footer`
   width: 100%;
@@ -39,23 +35,25 @@ const Nav = styled.nav`
   flex-direction: row;
   gap: 2rem;
   justify-content: center;
+
   @media (max-width: 768px) {
     flex-wrap: wrap;
     gap: 1rem;
-    justify-content: center;
     text-align: center;
     font-size: 12px;
   }
 `;
 
 const NavLink = styled.a`
-color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.text_primary};
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.2s ease-in-out;
+
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
+
   @media (max-width: 768px) {
     font-size: 1rem;
   }
@@ -72,6 +70,7 @@ const SocialMediaIcon = styled.a`
   font-size: 1.5rem;
   color: ${({ theme }) => theme.text_primary};
   transition: color 0.2s ease-in-out;
+
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
@@ -92,19 +91,23 @@ function Footer() {
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
-  
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href="" target="display"><TwitterIcon /></SocialMediaIcon>
-          <SocialMediaIcon href="" target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href="" target="display"><InstagramIcon /></SocialMediaIcon>
+          <SocialMediaIcon href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <TwitterIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <LinkedInIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <InstagramIcon />
+          </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2025 Mounees_dj07. All rights reserved.
         </Copyright>
-
       </FooterWrapper>
     </FooterContainer>
   );

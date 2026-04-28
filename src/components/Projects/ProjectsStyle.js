@@ -3,7 +3,7 @@ import _default from '../../themes/default';
 
 export const Container = styled.div`
     background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.15) 5.71%, rgba(132, 59, 206, 0) 90%);
-    display: flex;
+  
     flex-direction: column;
     justify-content: center;
     position: relative;
@@ -13,21 +13,27 @@ export const Container = styled.div`
 `;
 
 export const Wrapper = styled.div`
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 0px 40px 0; /* reduced bottom padding from 140px */
+
+
+  @media (max-width: 960px) {
     flex-direction: column;
-    width: 100%;
-    max-width: 1350px;
-    padding: 10px 0px 140px 0; /* Increased bottom padding */
-    gap: 12px;
-    @media (max-width: 960px) {
-        flex-direction: column;
-    }
+  }
 `;
 
 
+
+export const CardImageWrapper = styled.div`
+  
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+`;
 
 export const Title = styled.div`
 font-size: 42px;
@@ -69,14 +75,7 @@ export const ToggleButton = styled.div`
     padding: 8px 18px;
     border-radius: 6px;
     cursor: pointer;
-    ${({ active, theme }) =>
-        active && `
-    background: ${theme.primary + 20};
-    `
-    }
-    &:hover {
-        background: ${({ theme }) => theme.primary + 8};
-    }
+ 
     @media (max-width: 768px) {
         padding: 6px 8px;
         border-radius: 4px;
@@ -105,3 +104,4 @@ export const CardContainer = styled.div`
     //     grid-template-columns: repeat(1, 1fr);
     // }
 `;
+

@@ -2,18 +2,19 @@ export const Bio = {
   name: "Mounees Kumar R",
   roles: [
     "Full Stack Developer",
+   " Mendix Developer",
     "UI/UX Designer",
     "Programmer",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/rishavchanda",
+
   resume:
     "https://drive.google.com/file/d/1lMHq053TuwL5m4jrnMrRTICvi0P9ZZzg/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  linkedin: "https://www.linkedin.com/in/mouneeskumar0704",
+  twitter: "https://twitter.com",
+  insta: "https://www.instagram.com/mounees__dj07/",
+
 };
 
 export const skills = [
@@ -67,7 +68,7 @@ export const skills = [
       {
         name: "Python",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+          "https://destatic.blob.core.windows.net/images/django-logo.png",
       },
       {
         name: "MySQL",
@@ -86,10 +87,15 @@ export const skills = [
   {
     title: "Others",
     skills: [
+        {
+        name: "Mendix",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkKaeI9QLDFJ5h_XP9OYQIFRaSDlXJtFTuXQ&s",
+      },
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://www.svgrepo.com/show/303548/git-icon-logo.svg",
       },
       {
         name: "GitHub",
@@ -114,12 +120,12 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqPARNK1AQ86vt-kFVrGjRrJtZUNcT3-szdg&s",
       },
       {
         name: "Figma",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyIEyfClNU0SVPqlWPYBvqUG3JjBr-Orm3dw&s",
       },
     ],
   },
@@ -164,8 +170,7 @@ export const projects = [
     date: "Nov 2024 - Dec 2024",
     description:
       "This Intelligent platform connecting students and alumni worldwide, enabling seamless interaction and networking through a user-friendly webpage. Enhanced engagement and collaboration across the community.",
-    image:
-      "",
+
     tags: [
       "AWS",
       "React Js",
@@ -174,7 +179,6 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/Mounees07",
-    webapp: "",
   },
   {
     id: 0,
@@ -182,13 +186,10 @@ export const projects = [
     date: "May 2024 - Nov 2024",
     description:
       "Event Management Portal for BIT College streamlining the process for faculty to request and manage event requirements efficiently. Ensured a user-friendly and organized interface.",
-    image:
-      "",
+    
     tags: ["HTML", "CSS", "Javascript", "Django", "MySQL"],
     category: "web app",
     github: "https://github.com/Mounees07",
-    webapp: "",
-
   },
   {
     id: 1,
@@ -196,8 +197,7 @@ export const projects = [
     date: "Feb 2023 - March 2023",
     description:
       "Develop the Participants Registration Portal for Our Inter-College Fest.",
-    image:
-      "",
+  
     tags: [
       "HTML",
       "CSS",
@@ -206,7 +206,6 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/Mounees07",
-    webapp: "",
   },
 
 
