@@ -8,6 +8,8 @@ const FooterContainer = styled.div`
   padding: 2rem 0;
   display: flex;
   justify-content: center;
+  position: relative;
+  z-index: 1;
 `;
 
 const FooterWrapper = styled.footer`
@@ -92,13 +94,14 @@ function Footer() {
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#projects">Projects</NavLink>
+          <NavLink href="#certificates">Certificates</NavLink>
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href="https://twitter.com" target="_blank" rel="noopener noreferrer">
             <TwitterIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href="https://linkedin.com/in/mouneeskumar" target="_blank" rel="noopener noreferrer">
+          <SocialMediaIcon href="https://www.linkedin.com/in/mouneeskumar0704/" target="_blank" rel="noopener noreferrer">
             <LinkedInIcon />
           </SocialMediaIcon>
           <SocialMediaIcon href="https://instagram.com" target="_blank" rel="noopener noreferrer">
@@ -106,7 +109,7 @@ function Footer() {
           </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2025 Mounees_dj07. All rights reserved.
+          &copy; 2026 Mounees Kumar. All rights reserved.
         </Copyright>
       </FooterWrapper>
     </FooterContainer>
